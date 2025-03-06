@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Welcome to GameHub</h1>
+        <button id="enter-btn">Enter</button>
+    </div>
+
+    <div class="password-modal" id="password-modal">
+        <h2>Please Enter Password:</h2>
+        <input type="password" id="password" placeholder="Enter password...">
+        <button id="submit-password-btn">Submit</button>
+        <p id="error-msg"></p>
+    </div>
+
+    <div class="options-modal" id="options-modal">
+        <h2>Choose an Option:</h2>
+        <button class="option-btn" id="sigma-btn">Sigma</button>
+        <button class="option-btn" id="alpha-btn">Alpha</button>
+        <button class="option-btn" id="skyrim-btn">Skyrim</button>
+        <button class="option-btn" id="terry-btn">Terry Man!</button>
+    </div>
+
+    <div class="chatroom" id="chatroom">
+        <h2>Welcome to the Void</h2>
+        <div class="menu">
+            <button id="group-terminal-btn">Group Terminal</button>
+            <button id="solo-terminal-btn">Solo Terminal</button>
+        </div>
+        <div id="chat-container">
+            <!-- Chat messages and terminals will go here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
